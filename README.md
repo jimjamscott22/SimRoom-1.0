@@ -20,16 +20,17 @@ This is a learning project focused on mastering Unreal Engine's Blueprint system
 
 **Phase:** Planning & Foundation  
 **Completed Rooms:** 0/5  
-**Core Mechanics Implemented:** 0/5
+**Core Mechanics Implemented:** Native Phase 1 foundations added, pending Unreal compile and editor asset setup
 
 See [BLUEPRINT.md](BLUEPRINT.md) for detailed project roadmap.
+See [Development State](docs/dev-state.md) for the latest handoff notes.
 
 ## 🎯 Features
 
 ### Implemented
-- [ ] First-person movement and camera
-- [ ] Object interaction system
-- [ ] Button → Door mechanics
+- [x] Native first-person movement and camera foundation
+- [x] Native object interaction system foundation
+- [x] Native button → door mechanics foundation
 - [ ] Pushable boxes
 - [ ] Pressure plates
 - [ ] Timed doors
@@ -63,9 +64,13 @@ See [BLUEPRINT.md](BLUEPRINT.md) for detailed project roadmap.
    cd SimRoom1.0
    ```
 
-2. Open `SimRoom1.0.uproject` with Unreal Engine
+2. Install Visual Studio 2022 C++ build tools if opening the C++ project for the first time
 
-3. Press **Play** in the editor to test current build
+3. Open `SimRoom1.0.uproject` with Unreal Engine
+
+4. See [Phase 1 Editor Setup](docs/phase-1-editor-setup.md) to create the Room 0 Blueprint assets
+
+5. Press **Play** in the editor to test current build
 
 ## 📁 Project Structure
 

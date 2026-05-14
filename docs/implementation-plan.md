@@ -1,10 +1,10 @@
 # SimRoom 1.0 Implementation Plan
 
-**Status:** Planning and foundation  
+**Status:** Phase 1 foundation in progress  
 **Engine:** Unreal Engine 5.x  
 **Implementation:** Blueprint-first  
 **Primary Reference:** `docs/spec-sheet.md` and `simroom_project_blueprint.md`  
-**Last Updated:** May 13, 2026
+**Last Updated:** May 14, 2026
 
 ## Implementation Principles
 
@@ -574,9 +574,9 @@ Recommended files to keep in sync:
 
 ## Immediate Next Steps
 
-1. Create or confirm the Unreal project from the First Person Template.
-2. Add the recommended `Content/` folder structure.
-3. Implement `BPI_Interactable` and `BP_InteractionComponent`.
-4. Build `BP_Button` and `BP_Door`.
-5. Create Room 0 and verify the button-door loop.
+1. Finish installing Visual Studio C++ build tools.
+2. Compile `SimRoomEditor`.
+3. Create Blueprint children from the native Phase 1 classes.
+4. Create Room 0 and verify the button-door loop.
+5. Set default maps after `M_Room00_Tutorial` exists.
 6. Commit the foundation once the loop works in play-in-editor.
