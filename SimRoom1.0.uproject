@@ -1,0 +1,8 @@
+{
+	"FileVersion": 3,
+	"Category": "Games",
+	"Description": "First-person puzzle explorer built in Unreal Engine 5 with Blueprint-first systems.",
+	"TargetPlatforms": [
+		"Windows"
+	]
+}
